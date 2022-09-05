@@ -9,8 +9,14 @@ a:hover {
 }
 
 .cards {
-  display: block;
+  display: table;
   padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards:hover {
+  background-color: yellow;
 }
 
 .store-logo {
